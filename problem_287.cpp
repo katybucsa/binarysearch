@@ -1,5 +1,13 @@
 #include <string>
 
+/**
+ * Given two strings s0 and s1, return whether you can obtain s1 by removing 1 letter from s0.
+ * @param s0 - first string
+ * @param s1 - second string
+ * @return - true if the second string can be obtained from the first string by removing only one letter
+ *         - false otherwise
+ */
+
 bool solve(std::string s0, std::string s1) {
 
     size_t l1 = s0.size(), l2 = s1.size();
