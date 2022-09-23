@@ -1,4 +1,10 @@
-#include <vector>
+﻿#include <vector>
+
+/**
+* Given a list of integers nums, return a new list such that each element at index i of the new list is the product of all the numbers in the original list except the one at i. Do this without using division.
+* Constraints
+* 2 ≤ n ≤ 100,000 where n is the length of nums
+*/
 
 std::vector<int> solve(std::vector<int>& nums) {
 
