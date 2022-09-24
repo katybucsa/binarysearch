@@ -16,6 +16,7 @@ bool solve(std::string s) {
       parentheses.push(c);
     else if (!parentheses.empty())
       parentheses.pop();
+    else return false;
   }
   return parentheses.empty();
 }
