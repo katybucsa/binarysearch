@@ -12,7 +12,7 @@ public:
 
 LLNode* solve(LLNode* node) {
 
-  if (node->next == nullptr)
+  if (!node || !node->next)
     return node;
 
   LLNode* n1 = node;
