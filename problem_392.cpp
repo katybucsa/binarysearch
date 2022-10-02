@@ -1,6 +1,12 @@
-#include <string>
+﻿#include <string>
 #include <vector>
 #include <stack>
+
+/*
+* Given a string s containing balanced parentheses "(" and ")", split them into the maximum number of balanced groups.
+* Constraints
+* n ≤ 100,000 where n is length of s.
+*/
 
 std::vector<std::string> solve(std::string s) {
 
